@@ -1,8 +1,7 @@
 .App {
-  padding: 15px;
-  min-width: 100vh;
+  /*min-width: 100vh;*/
   min-height: 100vh;
-  background: url("assets/img/bg_img.png") no-repeat;
+  background: url("assets/img/bg_img.png") no-repeat center center fixed;
   background-size: cover;
   display: flex;
   align-items: center;
