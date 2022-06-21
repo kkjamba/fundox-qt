@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/fundox-qt/static/css/main.46cd2926.css",
+    "main.css": "/fundox-qt/static/css/main.c5b54e90.css",
     "main.js": "/fundox-qt/static/js/main.1a6b91a5.js",
     "static/js/787.196cadc5.chunk.js": "/fundox-qt/static/js/787.196cadc5.chunk.js",
     "static/media/cat.png": "/fundox-qt/static/media/cat.22c79082392189fbda9e.png",
     "static/media/bg_img.png": "/fundox-qt/static/media/bg_img.8b93e2127ee44e2a8146.png",
     "static/media/Exo-Thin.otf": "/fundox-qt/static/media/Exo-Thin.51c257bfa8ec3e0cfb4b.otf",
     "index.html": "/fundox-qt/index.html",
-    "main.46cd2926.css.map": "/fundox-qt/static/css/main.46cd2926.css.map",
+    "main.c5b54e90.css.map": "/fundox-qt/static/css/main.c5b54e90.css.map",
     "main.1a6b91a5.js.map": "/fundox-qt/static/js/main.1a6b91a5.js.map",
     "787.196cadc5.chunk.js.map": "/fundox-qt/static/js/787.196cadc5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46cd2926.css",
+    "static/css/main.c5b54e90.css",
     "static/js/main.1a6b91a5.js"
   ]
 }
