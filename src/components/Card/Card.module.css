@@ -1,0 +1,150 @@
+.card {
+    cursor: pointer;
+    /*font-family: Exo, 'sans-serif';*/
+    position: relative;
+    width: 320px;
+    height: 480px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 12px;
+    border: #1698D9 4px solid;
+    clip-path: polygon(45px 0, 100% 0%, 100% 100%, 0 100%, 0 45px);
+    display: flex;
+    flex-direction: column;
+}
+
+.card.disabled{
+    filter: grayscale(1);
+    cursor: default;
+}
+
+.card:before {
+    /*display: block;*/
+    content: '';
+    position: absolute;
+    width: 62px;
+    height: 4px;
+    background: #1698D9;
+    transform: rotate(-45deg);
+    top: 17px;
+    left: -11px;
+}
+
+.cardText {
+    padding: 21px 51px;
+}
+
+.description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #666666;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.title {
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    /*line-height: 56px;*/
+    color: #000000;
+}
+
+.subtitle {
+    margin: 0 0 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.gift {
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+}
+
+.catImg {
+    position: absolute;
+    bottom: -90px;
+    left: -25px
+}
+
+.weight {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: #1698D9;
+    border-radius: 50%;
+    bottom: 16px;
+    right: 16px;
+}
+
+.weightNum {
+    margin: 0;
+}
+
+.weightUnit {
+    margin: 0;
+}
+
+.check {
+    background-color: transparent;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.check:checked {
+    border: #1698D9 3px solid;
+}
+
+.buyText {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.buyButton {
+    cursor: pointer;
+    margin: 0;
+    padding: 0  ;
+    display: inline-block;
+    background: none;
+    border: none;
+    color: #1698D9;
+    border-bottom: #1698D9 1px dashed;
+}
+
+.buyText.disabled{
+    color: #FFFF66
+}
+
+.checkbox {
+    display: none;
+}
+
+.card.checked {
+    border: #E52E7A 4px solid;
+}
+
+.card.checked:before {
+    background: #E52E7A;
+}
