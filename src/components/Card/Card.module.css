@@ -1,6 +1,5 @@
 .card {
     cursor: pointer;
-    /*font-family: Exo, 'sans-serif';*/
     position: relative;
     width: 320px;
     height: 480px;
@@ -19,7 +18,6 @@
 }
 
 .card:before {
-    /*display: block;*/
     content: '';
     position: absolute;
     width: 62px;
@@ -40,8 +38,15 @@
     font-size: 16px;
     line-height: 19px;
     color: #666666;
-    text-align: center;
-    margin-bottom: 5px;
+}
+
+.angryCat {
+    display: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E62E7A;
 }
 
 .title {
@@ -49,7 +54,6 @@
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
-    /*line-height: 56px;*/
     color: #000000;
 }
 
@@ -145,6 +149,22 @@
     border: #E52E7A 4px solid;
 }
 
+.card.checked .weight {
+    background: #E52E7A;
+}
+
+.card.checked:hover .description {
+    display: none;
+}
+
+.card.checked:hover .angryCat {
+    display: block;
+}
+
 .card.checked:before {
     background: #E52E7A;
+}
+
+.buyButton.checked {
+    color: #E52E7A;
 }

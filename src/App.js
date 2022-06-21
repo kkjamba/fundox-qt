@@ -12,7 +12,7 @@ function App() {
             gift: 'мышь',
             weight: 0.5,
             disabled: false,
-            checked: false
+            checkedText: 'Печень утки разварная с артишоками.'
         },
         {
             id: 2,
@@ -23,7 +23,7 @@ function App() {
             gift: '2 мыши',
             weight: 2,
             disabled: false,
-            checked: true
+            checkedText: 'Головы щучьи с чесноком да свежайшая сёмгушка.'
         },
         {
             id: 3,
@@ -32,9 +32,10 @@ function App() {
             taste: 'с курой',
             portions: 100,
             gift: '5 мышей',
+            happyCat: 'заказчик доволен',
             weight: 5,
             disabled: true,
-            checked: false
+            checkedText: 'Филе из цыплят с трюфелями в бульоне.'
         },
     ]
     return (
